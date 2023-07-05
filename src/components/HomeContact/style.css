@@ -1,0 +1,157 @@
+.homecontacts {
+  width: 100%;
+  padding: 0 20px 114px;
+}
+
+.homecontacts .homecontacts__cont {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left {
+  width: 100%;
+  max-width: 600px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 52px;
+  color: #000000;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left .homecontacts__left-flex {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 20px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left .homecontacts__left-flex .homecontacts__left-item {
+  width: 100%;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left .homecontacts__left-flex .homecontacts__left-item span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 91.7%;
+  color: #FF5C00;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left .homecontacts__left-flex .homecontacts__left-item .title-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 91.7%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__left .homecontacts__left-flex .homecontacts__left-item p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map iframe {
+  width: 100%;
+  height: 500px;
+  border-radius: 14px;
+  border: unset;
+  filter: brightness(0.2);
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form {
+  width: calc(100% - 40px);
+  max-width: 400px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 14px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .homecontacts__form-title {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .homecontacts__form-title h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .homecontacts__form-title p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .input-text {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .input-text input {
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  border: 1px solid #FF5C00;
+  border-radius: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .input-btn {
+  width: 100%;
+  display: block;
+}
+
+.homecontacts .homecontacts__cont .homecontacts__map form .input-btn input {
+  width: 100%;
+  height: 40px;
+  font-family: "Montserrat";
+  border-radius: 14px;
+  background-color: #FF5C00;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}

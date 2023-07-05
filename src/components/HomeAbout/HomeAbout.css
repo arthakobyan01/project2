@@ -1,0 +1,195 @@
+.hom-catalog {
+	width: 100%;
+	padding: 60px 20px;
+	background: #151515;
+}
+
+.hom-catalog .hom-catalog__container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title h2 {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper {
+	width: 100%;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper {
+	width: 100%;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper .swiper-slide {
+	width: 100%;
+	max-width: max-content;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper .swiper-slide button {
+	padding: 0px 20px;
+	height: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 18px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper .swiper-slide button span {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 7px;
+	line-height: 9px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper .swiper-slide-active button {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__title .swiper .swiper-wrapper .swiper-slide-active button span {
+	color: #000000;
+}
+
+.hom-catalog .hom-catalog__container .hom-catalog__grid {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	margin-bottom: 20px;
+}
+
+.hom-catalog .hom-catalog__container .more-product-btn {
+	width: 100%;
+	height: 36px;
+	background: #FF5C00;
+	border-radius: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 220px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.home-about {
+	width: 100%;
+	padding: 24px 20px 114px;
+}
+
+.home-about .home-about__container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	background-image: url("../../img/phones.jpg");
+	background-size: contain;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.home-about .home-about__container .home-about__flex {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__swiper {
+	width: 100%;
+	padding: 16px 20px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.home-about .home-about__container .home-about__flex .home-about__swiper .swiper-wrapper .swiper-slide {
+	width: 100%;
+	max-width: 300px;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__swiper .swiper-wrapper .swiper-slide img {
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text {
+	width: 100%;
+	max-width: 400px;
+	padding: 30px 20px;
+	background: #000000;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text h2 {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text p {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text .sco {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text .sco a {
+	margin-right: 20px;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text .sco a svg {
+	width: 40px;
+	height: 40px;
+}
+
+.home-about .home-about__container .home-about__flex .home-about__text .sco p {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 18px;
+	margin: 0;
+	color: #FFFFFF;
+}

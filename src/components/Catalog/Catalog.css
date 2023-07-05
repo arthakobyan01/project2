@@ -1,0 +1,8 @@
+.menu_page_cont_right {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 100%
+}

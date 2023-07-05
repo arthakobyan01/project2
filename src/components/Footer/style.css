@@ -1,0 +1,122 @@
+.footer {
+	width: 100%;
+	padding: 80px 20px 40px;
+	background: #1D1D1D;
+}
+
+.footer .footer__container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.footer .footer__container .footer__top {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer .footer__container .footer__top .footer__item {
+	width: 100%;
+	max-width: 176px;
+}
+
+.footer .footer__container .footer__top .footer__item:first-child {
+	max-width: 344px;
+}
+
+.footer .footer__container .footer__top .footer__item .logo {
+	width: 100%;
+	display: block;
+	max-width: 150px;
+	margin-bottom: 26px;
+}
+
+.footer .footer__container .footer__top .footer__item .logo img {
+	width: 100%;
+}
+
+.footer .footer__container .footer__top .footer__item p {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: justify;
+	color: #FFFFFF;
+}
+
+.footer .footer__container .footer__top .footer__item h4 {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.footer .footer__container .footer__top .footer__item h5 {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.footer .footer__container .footer__top .footer__item ul li a {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.footer .footer__container .footer__bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+	position: relative;
+}
+
+.footer .footer__container .footer__bottom p {
+	max-width: 674px;
+	text-align: center;
+	font-family: "Rubik";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 13px;
+	color: #84858A;
+}
+
+.footer .footer__container .footer__bottom p a {
+	color: #84858A;
+
+}
+
+.footer .footer__container .footer__bottom p:first-child {
+	max-width: 178px;
+	text-align: left;
+}
+
+.footer .footer__container .footer__bottom .paymants-methods {
+	width: 100%;
+	max-width: 178px;
+}
+
+.footer .footer__container .footer__bottom .paymants-methods p {
+	font-family: "Rubik";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: right;
+	margin-bottom: 8px;
+	color: #84858A;
+}

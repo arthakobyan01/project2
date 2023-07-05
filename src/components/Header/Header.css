@@ -1,0 +1,295 @@
+.header {
+	width: 100%;
+	padding: 20px;
+	background: #000000;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+
+.logout {
+	display: flex;
+	height: 36px;
+	background: #404040;
+	border-radius: 18px;
+	max-width: 106px;
+	width: 100%;
+	min-height: px;
+	height: 41px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.activeMenu {
+	background-color: #FF5C00;
+	transition: cubic-bezier(.17, .67, .98, .02) 1.5s;
+	border-radius: 20px
+}
+
+.logout a {
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+
+.header .header__cont {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .header__cont .header__left {
+	width: 100%;
+	max-width: 600px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.header .header__cont .header__left .logo {
+	width: 100%;
+	display: block;
+	max-width: 120px;
+	margin-right: 16px;
+	transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s
+}
+
+.header .header__cont .header__left .logo img {
+	width: 100%;
+}
+
+.header .header__cont .header__left .header__left-menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 400px;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog {
+	width: 100%;
+	max-width: 122px;
+	position: relative;
+	z-index: 10;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog button {
+	width: 100%;
+	height: 36px;
+	background: #404040;
+	border-radius: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog button svg {
+	margin-right: 10px;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog .header__catalog-menu {
+	position: absolute;
+	left: 0;
+	top: 40px;
+	background: #404040;
+	border-radius: 18px;
+	padding: 20px;
+	width: max-content;
+	display: block;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog .header__catalog-menu ul li {
+	margin-bottom: 10px;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog .header__catalog-menu ul li:last-child {
+	margin-bottom: 0;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog .header__catalog-menu ul li a {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__left .header__left-menu .header__catalog .header__catalog-menu ul li a span {
+	display: block;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__left .header__left-menu .contact-link {
+	width: 100%;
+	max-width: 112px;
+	display: block;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__left .header__left-menu .contact-link span {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+	display: block;
+}
+
+.header .header__cont .header__right {
+	width: 100%;
+	max-width: 380px;
+}
+
+.header .header__cont .header__right ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.header .header__cont .header__right ul li a {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__right .header__user-menu {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header .header__cont .header__right .header__user-menu a svg {
+	width: 30px;
+	height: 30px;
+}
+
+.header .header__cont .header__right .header__user-menu .basketlink {
+	margin-right: 20px;
+	position: relative;
+	transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s
+}
+
+.basketlink:hover {
+	transform: rotate(360deg)
+}
+
+.logo:hover {
+	transform: rotate(360deg)
+}
+
+.header .header__cont .header__right .header__user-menu .basketlink span {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 14px;
+	padding: 2px;
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	display: block;
+	background: #FF5C00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #FFFFFF;
+}
+
+.header .header__cont .header__right .header__user-menu .burgermenubtn {
+	width: 30px;
+	display: none;
+}
+
+.header .header__cont .header__right .header__user-menu .burgermenubtn span {
+	width: 100%;
+	height: 3px;
+	display: block;
+	background: #fff;
+	margin-bottom: 6px;
+}
+
+.header .header__cont .header__right .header__user-menu .burgermenubtn span:last-child {
+	margin-bottom: 0;
+}
+
+/* 
+.burgermenubtn {
+    display: none;
+
+}
+
+@media (max-width: 900px) {
+   .burgerbtn {
+    display: block;
+    position: absolute;
+    top: 18px;
+    right: 10px;
+    width: 30px;
+    height: 18px;
+    cursor: pointer;
+    z-index: 5;
+   } 
+
+    span {
+        transition: all 0.3s ease 0s;
+        top: calc(50% - 1px);
+        left: 0px;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+    }
+     span:first-child {
+            top: 0px;
+        }
+
+    span:last-child {
+            top: auto;
+            bottom: 0px;
+        }
+
+     
+    .burgerbtn_active  span {
+            transform: scale(0);
+    
+    }
+
+        span:first-child {
+            transform: rotate(-45deg);
+            top: calc(50% - 1px);
+        }
+    
+        span:last-child {
+            transform: rotate(45deg);
+            bottom: calc(50% - 1px);
+        }
+} */

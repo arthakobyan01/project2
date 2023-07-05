@@ -1,0 +1,347 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Garik",
+      "surname": "Zakaryan",
+      "email": "gar.zakaryan@gmail.com",
+      "phone": "+37493040404",
+      "password": "123456",
+      "choosenProductsId": []
+    },
+    {
+      "id": 2,
+      "name": "Davit",
+      "surname": "Hovsepyan",
+      "email": "dav.hovsepyan@gmail.com",
+      "phone": "+37493050505",
+      "password": "1234567",
+      "choosenProductsId": []
+    },
+    {
+      "id": 3,
+      "name": "Nelly",
+      "surname": "Ghazaryan",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "+37493060606",
+      "password": "12345678",
+      "choosenProductsId": []
+    },
+    {
+      "id": 4,
+      "name": "Armen",
+      "surname": "Armenyan",
+      "email": "armenarmenyan@gmail.com",
+      "phone": "+37493070707",
+      "password": "123456789",
+      "choosenProductsId": []
+    },
+    {
+      "name": "Artak",
+      "email": "artak.artakyan@gmail.com",
+      "surname": "Artakyan",
+      "password": "12345",
+      "phone": "+37493000000",
+      "id": 5
+    },
+    {
+      "name": "Nelly",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 6
+    },
+    {
+      "name": "Armen",
+      "email": "armengrigoryan@gmail.com",
+      "surname": "Grigoryan",
+      "password": "12345678",
+      "phone": "+37495000000",
+      "id": 7
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "12345",
+      "phone": "093756327",
+      "id": 8
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 9
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 10
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 11
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 12
+    },
+    {
+      "name": "Nelli",
+      "email": "nellyghazaryan55@gmail.com",
+      "surname": "Ghazaryan",
+      "password": "123456",
+      "phone": "093756327",
+      "id": 13
+    }
+  ],
+  "ModalData": [
+    {
+      "name": "nelly",
+      "phone": "893849384938",
+      "id": 1
+    },
+    {
+      "name": "some",
+      "phone": "565657",
+      "id": 2
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "phone": "",
+      "id": 7
+    },
+    {
+      "name": "hghgh",
+      "phone": "4343434",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 14 pro",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAPP7-xkRQYo44Wx3i_MHm9ceDKt86zv2_yg&usqp=CAU",
+      "catalogName": "smartphones",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "560000AMD"
+    },
+    {
+      "id": 2,
+      "title": "SAMSUNG GALAXY A32 4",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/S/M/SM71532575.jpg",
+      "catalogName": "smartphones",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "99000 AMD"
+    },
+    {
+      "id": 3,
+      "title": " HONOR 70 8 GB 256 GB",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/S/M/SM71582983.jpg",
+      "catalogName": "smartphones",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "199900 AMD"
+    },
+    {
+      "id": 4,
+      "title": "TECNO CAMON 19 NEO 6",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/S/M/SM71551604.jpg",
+      "catalogName": "smartphones",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "95300 AMD"
+    },
+    {
+      "id": 5,
+      "title": "MSI GF63 THIN ",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/N/B/NB71554134.jpg",
+      "catalogName": "notebooks",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "345000 AMD"
+    },
+    {
+      "id": 6,
+      "title": "HP 250 G9 6F1Z7EA INTEL",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/N/B/NB71597914.jpg",
+      "catalogName": "notebooks",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "241200 AMD"
+    },
+    {
+      "id": 7,
+      "title": "ASUS ZENBOOK ",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/N/B/NB71491551.jpg",
+      "catalogName": "notebooks",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "762500 AMD"
+    },
+    {
+      "id": 8,
+      "title": "MSI CREATOR Z16",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/N/B/NB71491535.jpg",
+      "catalogName": "notebooks",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "1366900 AMD"
+    },
+    {
+      "id": 9,
+      "title": "LENOVO LEGION S7 15ACH6",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/N/B/NB71491514.jpg",
+      "catalogName": "notebooks",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "812200 AMD"
+    },
+    {
+      "id": 10,
+      "title": "HUION KAMVAS 13",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/G/T/GTB71428258.jpg",
+      "catalogName": "planshets",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "234000 AMD"
+    },
+    {
+      "id": 11,
+      "title": "DIGMA CITI OCTA 80",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/T/B/TB71434791.jpg",
+      "catalogName": "planshets",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "60200 AMD"
+    },
+    {
+      "id": 12,
+      "title": "HUAWEI MATEPAD 11",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/T/B/TB71486425.jpg",
+      "catalogName": "planshets",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "280700 AMD"
+    },
+    {
+      "id": 13,
+      "title": "BQ 8077L EXION PLUS",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/T/B/TB71497105.jpg",
+      "catalogName": "planshets",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "47800 AMD"
+    },
+    {
+      "id": 14,
+      "title": "JET KID CONNECT",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/S/W/SWC-0000124_1.jpg",
+      "catalogName": "accessories",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "6900 AMD"
+    },
+    {
+      "id": 15,
+      "title": "SMARTERRA SMARTLIFE",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/1/_/1_63_370.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "11500 AMD",
+      "catalogName": "accessories"
+    },
+    {
+      "id": 16,
+      "title": "SMARTERRA CHRONOS X",
+      "img": "https://nout.am/media/catalog/product/cache/001b11e62ffaf4e07b55f9bea18e7ffd/s/m/sm-uc101lrg.jpg",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting",
+      "cost": "6900 AMD",
+      "catalogName": "accessories"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "SmartPhones",
+      "slug": "smartphones",
+      "icon": "",
+      "checked": true
+    },
+    {
+      "id": 2,
+      "title": "Notebooks",
+      "slug": "notebooks",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 3,
+      "title": "Planshets",
+      "slug": "planshets",
+      "icon": "",
+      "checked": false
+    },
+    {
+      "id": 4,
+      "title": "Accessories",
+      "slug": "accessories",
+      "icon": "",
+      "checked": false
+    }
+  ],
+  "delivery": [
+    {
+      "name": "nelly",
+      "address": "mikoyan",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "5454545",
+      "id": 1
+    },
+    {
+      "name": "someone",
+      "address": "somewhere 23",
+      "email": "nellyghazaryan55@gmail.com",
+      "phone": "4343434",
+      "id": 2
+    }
+  ]
+}

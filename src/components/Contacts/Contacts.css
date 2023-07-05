@@ -1,0 +1,269 @@
+@media (max-width: 430px) {
+	.contact_page {
+		padding: 0 16px 30px;
+	}
+
+	.contact_page .contact_page_cont .sites {
+		max-width: 100px;
+	}
+
+	.contact_page .contact_page_cont h1 {
+		font-size: 20px;
+		line-height: 26px;
+		margin-bottom: 30px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex {
+		margin-top: 30px;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right {
+		max-width: 630px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item {
+		width: 100%;
+		margin-bottom: 16px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item p {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item p svg {
+		margin-right: 10px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item a,
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item span {
+		font-size: 14px;
+		line-height: 24px;
+		margin: 10px 0 10px 28px;
+		max-width: unset;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form {
+		max-width: 346px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form h2 {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 15px;
+		text-align: left;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form {
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form label {
+		margin-bottom: 15px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form label input[type="text"] {
+		font-size: 15px;
+		line-height: 20px;
+		height: 48px;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form .submit {
+		max-width: 220px;
+		margin: 15px 0 0;
+	}
+
+	.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form .submit input {
+		height: 40px;
+		font-size: 14px;
+		line-height: 30px;
+	}
+
+	.contact_page .contact_page_cont iframe {
+		height: 300px;
+	}
+}
+
+.contact_page {
+	padding: 30px 16px 50px;
+}
+
+.contact_page {
+	position: relative;
+	overflow: hidden;
+}
+
+.contact_page .contact_page_cont {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.contact_page .contact_page_cont .sites {
+	max-width: 100px;
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.contact_page .contact_page_cont .sites a {
+	margin: 0;
+}
+
+.contact_page .contact_page_cont h1 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 30px;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	margin-bottom: 30px;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right {
+	max-width: 630px;
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item {
+	width: 50%;
+	margin-bottom: 16px;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #000;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item p svg {
+	margin-right: 10px;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item a,
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_right .contact_page_cont_flex_right_item span {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	margin: 10px 0 10px 28px;
+	max-width: 219px;
+	display: block;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form {
+	max-width: 346px;
+	width: 100%;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: right;
+	margin-bottom: 15px;
+	text-transform: capitalize;
+	color: #000;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form {
+	width: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form label {
+	width: 100%;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form label input[type="text"] {
+	width: 100%;
+	height: 40px;
+	padding: 0 16px;
+	border: 1px solid #FF5C00;
+	border-radius: 14px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form .submit {
+	max-width: 220px;
+	margin: 15px 0 0;
+}
+
+.contact_page .contact_page_cont .contact_page_cont_flex .contact_page_cont_flex_form form .submit input {
+	width: 100%;
+	height: 40px;
+	font-family: "Montserrat";
+	border-radius: 14px;
+	background-color: #FF5C00;
+	cursor: pointer;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.contact_page .contact_page_cont iframe {
+	width: 100%;
+	height: 500px;
+	filter: grayscale(1);
+	border: unset;
+}

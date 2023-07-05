@@ -1,0 +1,145 @@
+.register {
+  width: 100%;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #434343);
+}
+
+.register__container {
+  max-width: 475px;
+  width: 100%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #FFFFFF
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  ;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  ;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFFFFF
+}
+
+.register__form {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.text {
+  width: 100%;
+  display: block;
+  max-width: 356px;
+}
+
+.text-input {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  max-width: 356px;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  padding: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+}
+
+.submit {
+  width: 100%;
+  display: block;
+  max-width: 356px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+
+}
+
+.submit-input {
+  background: #FFFFFF;
+  border-radius: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #000;
+  border: unset;
+  border-radius: 2px;
+  max-width: 356px;
+  height: 50px;
+  width: 100%;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  padding: 0 8px;
+  text-align: center;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px
+}

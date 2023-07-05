@@ -1,0 +1,363 @@
+.phonemodal {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 20px;
+  z-index: 5;
+  bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 15px #000;
+  background-color: #012f53;
+  transition: all 0.5s;
+}
+
+.phonemodal .phonemodalicon {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  animation: ex-1-wheel2 1s ease-in-out infinite;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phonemodal .phonemodalicon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.phonemodal .phonemodal_box {
+  position: absolute;
+  background: #fff;
+  border-radius: 30px;
+  bottom: 0;
+  opacity: 0;
+}
+
+.phonemodal .phonemodal_box .clousmodal {
+  background: unset;
+  border: unset;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 20px;
+}
+
+.phonemodal .phonemodal_box .clousmodal span {
+  width: 100%;
+  height: 2px;
+  background: #012f53;
+  display: block;
+  position: relative;
+}
+
+.phonemodal .phonemodal_box .clousmodal span:first-child {
+  transform: rotate(-45deg);
+  top: 2px;
+  position: relative;
+  top: 1px;
+}
+
+.phonemodal .phonemodal_box .clousmodal span:last-child {
+  transform: rotate(45deg);
+}
+
+.phonemodal .phonemodal_box a {
+  font-size: 22px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin: 0 auto 20px;
+  transition: all 0.5s;
+  color: #012f53;
+  display: flex;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.activmodal {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background: unset;
+  box-shadow: 0 0 15px #000;
+}
+
+.activmodal .phonemodal_box {
+  opacity: 1;
+  z-index: 2;
+}
+
+.activmodal .phonemodalicon {
+  opacity: 0;
+}
+
+.mailmodal {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  left: 20px;
+  z-index: 5;
+  bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 0 15px #000;
+  background-color: #012f53;
+  transition: all 0.5s;
+}
+
+.mailmodal .mailmodalicon {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  border-radius: 50%;
+  animation: ex-1-wheel2 1s ease-in-out infinite;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.mailmodal .mailmodalicon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.mailmodal .mailmodal_box {
+  position: absolute;
+  background: #fff;
+  border-radius: 30px;
+  bottom: 0;
+  opacity: 0;
+}
+
+.mailmodal .mailmodal_box .clousmodal {
+  background: unset;
+  border: unset;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 20px;
+}
+
+.mailmodal .mailmodal_box .clousmodal .close {
+  width: 100%;
+  height: 2px;
+  background: #012f53;
+  display: block;
+  position: relative;
+}
+
+.mailmodal .mailmodal_box .clousmodal .close:first-child {
+  transform: rotate(-45deg);
+  top: 2px;
+}
+
+.mailmodal .mailmodal_box .clousmodal .close:last-child {
+  transform: rotate(45deg);
+}
+
+.mailmodal .mailmodal_box form {
+  width: 100%;
+}
+
+.mailmodal .mailmodal_box form label {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 16px;
+  border: 1px solid #012f53;
+  transition: all 0.5s;
+}
+
+.mailmodal .mailmodal_box form label input[type=submit] {
+  transition: all 0.5s;
+  width: 100%;
+  height: 52px;
+  cursor: pointer;
+  border: unset;
+  background: unset;
+  max-width: 191px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #012f53;
+}
+
+.mailmodal .mailmodal_box form label input[type=text] {
+  width: 100%;
+  height: 53px;
+  padding: 0 16px;
+  box-shadow: 0 0 5px #000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  border: unset;
+  line-height: 130.4%;
+  color: #161719;
+}
+
+.activmailmodal {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background: unset;
+  box-shadow: 0 0 15px #000;
+}
+
+.activmailmodal .mailmodalicon {
+  opacity: 0;
+}
+
+.activmailmodal .mailmodal_box {
+  opacity: 1;
+  z-index: 2;
+}
+
+.mailmodal .mailmodal_box,
+.phonemodal .phonemodal_box {
+  min-width: 300px;
+  min-height: 300px;
+  padding: 80px 16px 20px;
+  left: 0;
+}
+
+.phonemodal .phonemodal_box a svg path {
+  fill: #012f53 !important;
+}
+
+@keyframes ex-1-wheel3 {
+  0% {
+    opacity: 1;
+  }
+
+  20%,
+  70% {
+    opacity: 1;
+  }
+
+  90%,
+  100% {
+    border-radius: 0;
+  }
+}
+
+.cal_back_modal {
+  position: fixed;
+  width: 0;
+  transition: all 0.5s;
+  overflow: hidden;
+  height: 0;
+  z-index: 7;
+  background: rgba(0, 0, 0, .5);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal_back_modal .cal_back_modal_cont {
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 0 15px #000;
+  padding: 20px;
+  position: relative;
+}
+
+.cal_back_modal .cal_back_modal_cont h2 {
+  margin-bottom: 40px;
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  text-transform: capitalize;
+  color: #161719;
+}
+
+.cal_back_modal .cal_back_modal_cont .clous_modal {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  border: unset;
+  background: unset;
+  padding: 0;
+}
+
+.cal_back_modal .cal_back_modal_cont .clous_modal span {
+  width: 100%;
+  height: 1px;
+  background: #000;
+  display: block;
+  transform: rotate(45deg);
+}
+
+.cal_back_modal .cal_back_modal_cont .clous_modal span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+.cal_back_modal .cal_back_modal_cont form {
+  width: 100%;
+}
+
+.cal_back_modal .cal_back_modal_cont form input {
+  margin-bottom: 20px;
+  color: #012f53;
+  padding: 0 16px;
+  background: unset;
+}
+
+.cal_back_modal .cal_back_modal_cont form button,
+.cal_back_modal .cal_back_modal_cont form input {
+  height: 54px;
+  width: 100%;
+  font-weight: 600;
+  border: 2px solid #012f53;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+}
+
+.cal_back_modal .cal_back_modal_cont form button {
+  background: #012f53;
+  transition: all 0.5s;
+  color: #fff;
+}
+
+.cal_back_modal-active {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
